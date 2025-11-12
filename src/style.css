@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  margin: 2em;
+}
+#editor {
+  border: 1px solid #ccc;
+  height: 300px;
+}
+#output {
+  margin-top: 1em;
+  background: #f9f9f9;
+  padding: 1em;
+  white-space: pre-wrap;
+}
