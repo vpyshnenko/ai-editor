@@ -1,4 +1,4 @@
-import {basicSetup, EditorView} from "codemirror"
+export const content = `import {basicSetup, EditorView} from "codemirror"
 import {javascript} from "@codemirror/lang-javascript"
 import { oneDark } from '@codemirror/theme-one-dark';
 
@@ -6,7 +6,7 @@ import { content } from './content.js'
 
 
 new EditorView({
-  doc: content,
+  doc: "content",
   extensions: [
     basicSetup,
     javascript(),
@@ -14,3 +14,4 @@ new EditorView({
   ],
   parent: document.querySelector('#editor')
 })
+`

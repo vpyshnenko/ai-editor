@@ -5,6 +5,7 @@ body {
 #editor {
   border: 1px solid #ccc;
   height: 300px;
+  overflow: auto;
 }
 #output {
   margin-top: 1em;
